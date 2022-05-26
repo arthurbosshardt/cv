@@ -1,1 +1,17 @@
-Hello world :)
+<div id="titlesContainer">
+    <h1 id="whoAmITitle" class="title" routerLink="/me" routerLinkActive="active">
+        Qui suis-je ?
+    </h1>
+    <h1 id="myFormationsTitle" class="title" routerLink="/formations" routerLinkActive="active">
+        Mes expériences pro
+    </h1>
+    <h1 id="mySkillsTitle" class="title" routerLink="/skills" routerLinkActive="active">
+        Mes compétences
+    </h1>
+    <h1 id="contactMeTitle" class="title" routerLink="/contact" routerLinkActive="active">
+        Me contacter
+    </h1>
+</div>
+<div id="contentBody">
+    <router-outlet></router-outlet>
+</div>
